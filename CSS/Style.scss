@@ -181,12 +181,226 @@ body {
 }
 
 .Technologies {
-    margin-left: 192px;
+    margin-left: 50px;
     margin-top: 329px;
     color: #FFF;
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
+    line-height: normal;
+        .progress {
+            h2 {
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal; 
+            }
+            .ligne {
+                width: 1320px;
+                height: 32.3px; 
+                border-radius: 83px;
+                background: #162950;
+            }
+            .lignesup {
+                width: 990px;
+                height: 32px;
+                flex-shrink: 0;
+                border-radius: 83px;
+                background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+                position: absolute;
+                top: 3177.93px;
+            }
+            .lignesupcss {
+                position: absolute;
+                top: 3323.93px;
+                width: 990px;
+                height: 32px;
+                flex-shrink: 0; 
+                border-radius: 83px;
+                background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+            }
+            .lignesupjs {
+                position: absolute;
+                top: 3469.93px;
+                width: 800px;
+                height: 32px;
+                flex-shrink: 0; 
+                border-radius: 83px;
+                background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+            }
+            .lignesupReact {
+                position: absolute;
+                top: 3618.93px;
+                width: 10px;
+                height: 32px;
+                flex-shrink: 0; 
+                border-radius: 83px;
+                background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+            }
+        }
+        .competences {
+            .liposition {
+            }
+        }
+}
+
+.aboutMe {
+    height: 500px;
+    h1{
+    color: #FFF;
+    margin-left: 192px;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
     line-height: normal; 
+    }
+    .ligne {
+        width: 1289px;
+        height: 12px;
+        background: #FFF; 
+        margin-left: 315px;
+        margin-right: 316px;
+        margin-top: 141px;
+    }
+    .point {
+        width: 32px;
+        height: 32px;
+        fill: #FFF;
+        margin-left: 300px;
+        position: relative;
+        top: -210px;
+        margin-top: 141px;
+            h2 {
+                color:#FEFEFE;
+            }
+            p{
+                width: 347px; 
+                color: #FFF;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                position: absolute;
+                left: -126px;
+            }
+    }
+    .point2020 {
+        width: 32px;
+        height: 32px;
+        fill: #FFF;
+        margin-left: 300px;
+        position: relative;
+        top: -385px;
+        margin-top: 141px;
+        left: 290px;
+            h2 {
+                color:#FEFEFE;
+            }
+            p{
+                width: 347px; 
+                color: #FFF;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                position: absolute;
+                left: -126px;
+            }
+    }
+    .point2022 {
+        width: 32px;
+        height: 32px;
+        fill: #FFF;
+        margin-left: 300px;
+        position: relative;
+        top: -558px;
+        margin-top: 141px;
+        left: 618px;
+            h2 {
+                color:#FEFEFE;
+            }
+            p{
+                width: 347px; 
+                color: #FFF;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                position: absolute;
+                left: -126px;
+            }
+    }
+    .point2023 {
+        width: 32px;
+        height: 32px;
+        fill: #FFF;
+        margin-left: 300px;
+        position: relative;
+        top: -731px;
+        margin-top: 141px;
+        left: 938px;
+            h2 {
+                color:#FEFEFE;
+            }
+            p{
+                width: 347px; 
+                color: #FFF;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                position: absolute;
+                left: -126px;
+            }
+    }
+}
+
+footer {
+.contact {
+    h1, p {
+        margin-left: 259px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+    }
+}
+.contact2 {
+    margin-top: -72px;
+    margin-left: 531px;
+    h1, p {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+    }
+}
+.media {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: -78px;
+a {
+    margin-left: 1317px;
+}
+:nth-child(2) {
+    margin-left: 0;
+}
+}
 }
