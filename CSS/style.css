@@ -1,0 +1,177 @@
+body {
+  background-color: #0F1624;
+  margin: 0;
+  font-family: "roboto";
+  max-width: 1440px;
+}
+
+.title .title-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: #FEFEFE;
+}
+.title img {
+  margin-top: 44px;
+  margin-left: 131px;
+  width: 47px;
+  height: 47px;
+}
+.title h1 {
+  color: #FEFEFE;
+  width: 124px;
+  height: 45px;
+  margin-top: 46px;
+  margin-left: 12px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.title .title-text {
+  display: flex;
+  flex-direction: row;
+  margin-left: 218px;
+  gap: 98px;
+  margin-top: 46px;
+}
+.title .title-text h2 {
+  color: #FEFEFE;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 202px;
+  margin: 0;
+}
+.title .text-media {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+}
+.title .text-media img {
+  margin-top: 52px;
+  width: 32px;
+  height: 32px;
+}
+.title .text-media a {
+  width: 32px;
+  height: 32px;
+}
+
+.presentation {
+  margin-top: 157px;
+  margin-left: 192px;
+  overflow: scroll;
+}
+.presentation h1 {
+  color: #FEFEFE;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.presentation p {
+  width: 989px;
+  height: 162px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #BCBCBC;
+}
+
+.projets-title {
+  width: 262px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 96px;
+  margin-left: 192px;
+  margin-top: 255px;
+}
+
+.projets {
+  margin-left: 192px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.projets .card {
+  width: 550px;
+  height: 700px;
+  margin-top: 93px;
+  flex-shrink: 0;
+  border-radius: 50px 0px;
+  background: #0F1624;
+  box-shadow: 0px 0px 12px 0px #FFF;
+}
+.projets .card img {
+  margin: 25px;
+  width: 500px;
+  height: 266px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.projets .card h1 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 88.5%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+.projets .card .maligne {
+  width: 300px;
+  height: 4px;
+  flex-shrink: 0;
+  margin-left: 125px;
+  margin-top: 25px;
+  margin-right: 125px;
+  border-radius: 83px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+}
+.projets .card p {
+  margin: 25px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.projets .card button {
+  margin-left: 25px;
+  margin-right: 325px;
+  margin-top: 35px;
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 83px;
+  border: 0;
+  cursor: pointer;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+}
+
+.Technologies {
+  margin-left: 192px;
+  margin-top: 329px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=Style.css.map */
