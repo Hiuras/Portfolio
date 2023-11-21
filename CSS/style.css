@@ -89,6 +89,13 @@ body {
   color: #BCBCBC;
 }
 
+.geometric {
+  margin-left: 1235px;
+  margin-top: -176px;
+  z-index: -1;
+  position: relative;
+}
+
 .projets-title {
   width: 262px;
   color: #FFF;
