@@ -43,8 +43,12 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 202px;
+  width: 121px;
+  white-space: nowrap;
   margin: 0;
+}
+.title .title-text :nth-child(3) {
+  margin-left: 98px;
 }
 .title .text-media {
   display: flex;
