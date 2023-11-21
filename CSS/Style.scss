@@ -54,6 +54,9 @@ body {
             width: 121px;
             white-space: nowrap;
             margin: 0;
+                &:hover {
+                    font-weight: 900;
+                }
         }
         :nth-child(3) {
             margin-left: 98px;
@@ -66,7 +69,11 @@ body {
         img {
             margin-top: 52px;
             width: 32px;
-            height: 32px; 
+            height: 32px;
+            &:hover{
+                width: 40px;
+                height: 40px;
+            }
         }
         a {
             width: 32px;
@@ -181,7 +188,17 @@ body {
                 border-radius: 83px;
                 border: 0;
                 cursor: pointer;
-                background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);  
+                background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+                color:#FFFF;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                    &:hover {
+                        width: 250px;
+                        height: 80px;
+                    } 
             }
     }
 }
