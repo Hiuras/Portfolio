@@ -1,6 +1,11 @@
 $main-color : #0F1624;
 $font-family: 'roboto';
 
+html {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     background-color: $main-color;
     margin: 0;
